@@ -1,0 +1,49 @@
+<html>
+<head>
+	
+</head>
+<body>
+        <table>
+          <tr>
+            <th>{{pradip}}</th>
+            <th>Student Name</th>
+            <th>Age</th>
+            <th>Contact</th>
+            <th>Designation</th>
+            <th>Image</th>
+
+          </tr>
+          <tr *ngFor="let data of MyArrayType">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.age}}</td>
+            <td>{{data.contact}}</td>
+            <td>{{data.designation}}</td>
+
+            <td><img src="../../assets/images/{{data.image}}" (click)="showForEdit(data.id)" alt="" border=3 height=70 width=70 /></td>
+          </tr>
+         
+        </table>
+
+
+        <mat-card class="example-card" >
+          <mat-card-header>
+          <div mat-card-avatar>
+          <img mat-card-image class="avtar_img"  src="../../assets/images/{{Simage}}" alt="Photo of a Shiba Inu">
+          </div>
+          <mat-card-title>{{Sname}}</mat-card-title>
+          <mat-card-subtitle>{{Sdesignation}} , {{Scontact}}	</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image class="name_img" src="../../assets/images/{{Simage}}" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+          <p>
+            
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          </p>
+          </mat-card-content>
+          </mat-card>
+
+
+       
+        </body>
+</html>

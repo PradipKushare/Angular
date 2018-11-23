@@ -1,0 +1,23 @@
+
+<div class="row main_login_div">
+    <mat-card class="login_card">
+      <p class="login_heading text-center">Login with your account...!</p>
+     
+    <form class="example-form">
+      
+      <mat-form-field class="example-full-width">
+          <input required matInput type="email" placeholder="Username" value="">      
+      </mat-form-field>
+    <br />
+      <mat-form-field class="example-full-width">
+        <input required matInput type="password" placeholder="Password" value="">  </mat-form-field>
+    
+        <div class="example-button-row">
+            <button mat-raised-button color="accent">Login</button>
+    
+            <button mat-raised-button color="primary" id="go_signup" (click)="openDialog()">Register</button>
+        </div>
+    </form>
+    </mat-card>
+    </div>
+    

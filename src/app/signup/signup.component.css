@@ -1,0 +1,48 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-button-row button,
+  .example-button-row a {
+    margin-right: 8px;
+  } 
+  
+ 
+   .mat-raised-button.mat-warn {
+    background-color: 04513ef7;
+    color: white;
+    font-weight: bold;
+    float: left;
+  }
+
+  :host /deep/ .mat-input-placeholder {
+    font-size: 2em;
+ }
+
+  
+   .cancel_signup {
+    background-color: #0f76b3;
+    color: white;
+    font-weight: bold;
+    float: right;
+  }
+  .signup_card{
+    background:#e7d1ca3b;
+    width: 500px;
+    height: auto;
+  } 
+  
+ 
+  .signup_heading{
+  color: #ef7753;
+  font-size: 1.2em;
+  
+  /* background-color: #17dd2f59; */
+  }
+  

@@ -1,0 +1,15 @@
+
+
+.avtar_img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.mat-card{
+    padding: 60px;
+}
+.name_img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+
+<div class="row main_signin_div">
+    <mat-card class="signup_card">
+      <p class="signup_heading text-center">Signup For New Users...!</p>
+     
+    <form class="example-form">
+      
+      <mat-form-field class="example-full-width">
+          <input matInput required type="name" placeholder="First Name" value="">      
+      </mat-form-field>
+    <br />
+      <mat-form-field class="example-full-width">
+        <input matInput required type="name" placeholder="Last Name" value="">  
+      </mat-form-field>
+      <br />
+
+        
+      <mat-form-field>
+          <input matInput [matDatepicker]="dp" placeholder="Choose Your Birthdate" [formControl]="date">
+          <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+          <mat-datepicker #dp></mat-datepicker>
+        </mat-form-field>
+        
+
+      <mat-form-field class="example-full-width">
+          <input matInput required type="email" placeholder="Email Address" value="">  
+        </mat-form-field>
+        <br />
+
+        <mat-form-field class="example-full-width">
+            <input matInput required type="password" placeholder="Create Password" value="">  
+          </mat-form-field>
+          <br />
+
+    
+        <div class="example-button-row">
+            <button mat-raised-button color="warn" (click)="onCloseConfirm()">Create Account</button>   
+            <button mat-raised-button color="primary" class="cancel_signup" id="go_signin" (click)="onCloseCancel()">Cancel</button>
+        </div>
+    </form>
+    </mat-card>
+    </div>
+    

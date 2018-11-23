@@ -1,0 +1,51 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.mat-raised-button.mat-accent {
+  background-color: #ef3f5b;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  float: left;
+}
+
+.mat-raised-button.mat-primary {
+  background-color: #0f76b3;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  float: right;
+}
+.login_card{
+  width: 25%;
+  padding:30px;
+  display: inline-block;
+  background:#ffffff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+.login_heading{
+color: #4aab5a;
+font-size: 1.2em;
+/* background-color: #6907150d; */
+}
+
+
